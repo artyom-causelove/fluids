@@ -6,14 +6,15 @@ export default {
     screens: {
       Root: {
         screens: {
-          TabOne: {
+          Author: {
             screens: {
-              TabOneScreen: 'one',
+              AuthorScreen: 'author',
             },
           },
-          TabTwo: {
+          Handbook: {
             screens: {
-              TabTwoScreen: 'two',
+              HandbookScreen: 'Handbook',
+              HandbookDetailsScreen: 'Details'
             },
           },
         },
